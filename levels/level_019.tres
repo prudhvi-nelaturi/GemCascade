@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LevelData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/level/LevelData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+level_number = 19
+episode = "sunset_beach"
+rows = 8
+cols = 8
+gem_type_count = 6
+move_limit = 20
+objective = 1
+objective_target = 21
+objective_color = 0
+blocker_cells = Array[Vector2i]([])
+star_thresholds = Array[int]([3100, 5200, 8100])

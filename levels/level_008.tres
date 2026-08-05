@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="LevelData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/level/LevelData.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+level_number = 8
+episode = "candy_forest"
+rows = 8
+cols = 8
+gem_type_count = 6
+move_limit = 20
+objective = 2
+objective_target = 8
+objective_color = -1
+blocker_cells = Array[Vector2i]([Vector2i(1, 1), Vector2i(1, 2), Vector2i(2, 1), Vector2i(2, 2), Vector2i(5, 5), Vector2i(5, 6), Vector2i(6, 5), Vector2i(6, 6)])
+star_thresholds = Array[int]([3200, 5400, 8400])
