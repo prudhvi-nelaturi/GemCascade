@@ -1,0 +1,9 @@
+.godot/
+build/
+*.aab
+*.apk
+export_presets.cfg.bak
+keystore.properties
+*.jks
+*.keystore
+.DS_Store
