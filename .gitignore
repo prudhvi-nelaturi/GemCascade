@@ -3,6 +3,7 @@ build/
 android/
 *.aab
 *.apk
+export_presets.cfg
 export_presets.cfg.bak
 keystore.properties
 *.jks
