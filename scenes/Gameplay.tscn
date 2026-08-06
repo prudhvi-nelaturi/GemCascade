@@ -1,0 +1,36 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/gameplay/GameplayController.gd" id="1_5sdaa"]
+[ext_resource type="Script" path="res://scripts/gameplay/BoardView.gd" id="2_a8mty"]
+[ext_resource type="Script" path="res://scripts/gameplay/GameplayHud.gd" id="3_jfxgp"]
+
+[node name="Gameplay" type="Node2D" unique_id=426811956]
+script = ExtResource("1_5sdaa")
+
+[node name="ShakeRoot" type="Node2D" parent="." unique_id=566137544]
+
+[node name="BoardView" type="Node2D" parent="ShakeRoot" unique_id=613448412]
+script = ExtResource("2_a8mty")
+
+[node name="Hud" type="CanvasLayer" parent="." unique_id=1221493831]
+layer = 10
+script = ExtResource("3_jfxgp")
+
+[node name="FxLayer" type="CanvasLayer" parent="." unique_id=1282842525]
+layer = 20
+
+[node name="Flash" type="ColorRect" parent="FxLayer" unique_id=425420499]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color(1, 1, 1, 0)
+
+[node name="Combo" type="Label" parent="FxLayer" unique_id=1251062005]
+modulate = Color(1, 1, 1, 0)
+offset_left = 40.0
+offset_top = 220.0
+offset_right = 680.0
+offset_bottom = 310.0
+horizontal_alignment = 1
+vertical_alignment = 1
