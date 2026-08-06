@@ -20,6 +20,7 @@ script_export_mode=2
 [preset.0.options]
 
 gradle_build/use_gradle_build=true
+gradle_build/export_format=1
 gradle_build/gradle_build_directory=""
 gradle_build/android_source_template=""
 gradle_build/compress_native_libraries=false
